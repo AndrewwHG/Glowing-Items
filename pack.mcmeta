@@ -1,0 +1,11 @@
+{
+  "pack": {
+    "pack_format": 55,
+    "description": "§5§lI§d§lt§f§lem Glin§d§lt§5§ls§r§7§o 1.21.4 - 1.21.5
+§r§§§3§l► By AndrewHG",
+    "supported_formats": {
+      "min_inclusive": 30,
+      "max_inclusive": 999
+    }
+  }
+}
