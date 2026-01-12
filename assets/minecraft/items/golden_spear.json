@@ -1,0 +1,87 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:has_component",
+          "component": "minecraft:enchantments",
+          "ignore_default": true,
+          "on_true": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": [
+                  "firstperson_righthand",
+                  "firstperson_lefthand",
+                  "thirdperson_righthand",
+                  "thirdperson_lefthand",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ],
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_golden_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_spear"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/golden_spear"
+          }
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:has_component",
+      "component": "minecraft:enchantments",
+      "ignore_default": true,
+      "on_true": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": [
+              "firstperson_righthand",
+              "firstperson_lefthand",
+              "thirdperson_righthand",
+              "thirdperson_lefthand",
+              "ground",
+              "fixed",
+              "on_shelf"
+            ],
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/enchanted_golden_spear_in_hand"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/golden_spear_in_hand"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/golden_spear_in_hand"
+      }
+    },
+    "property": "minecraft:display_context"
+  },
+  "swap_animation_scale": 1.9
+}

@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/enchanted_spear_in_hand",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "minecraft:item/netherite_spear_in_hand"
+	}
+	
+}
