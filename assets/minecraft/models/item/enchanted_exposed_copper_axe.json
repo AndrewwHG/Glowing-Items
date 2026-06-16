@@ -2,9 +2,8 @@
 	"parent": "minecraft:item/handheld",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "minecraft:item/diamond_axe",
-		"2": "minecraft:item/axe_glint",
-		"particle": "minecraft:item/diamond_axe"
+		"0": "minecraft:item/exposed_copper_axe",
+		"2": "minecraft:item/axe_glint"
 	},
 	"elements": [
 		{

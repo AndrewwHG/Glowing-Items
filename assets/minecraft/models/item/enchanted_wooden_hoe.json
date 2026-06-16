@@ -3,7 +3,8 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "minecraft:item/wooden_hoe",
-		"1": "minecraft:item/hoe_glint"
+		"1": "minecraft:item/hoe_glint",
+		"particle": "minecraft:item/wooden_hoe"
 	},
 	"elements": [
 		{

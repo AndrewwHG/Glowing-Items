@@ -2,9 +2,8 @@
 	"parent": "minecraft:item/handheld",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "minecraft:item/wooden_shovel",
-		"1": "minecraft:item/shovel_glint",
-		"particle": "minecraft:item/wooden_shovel"
+		"0": "minecraft:item/oxidized_copper_shovel",
+		"1": "minecraft:item/shovel_glint"
 	},
 	"elements": [
 		{

@@ -3,7 +3,9 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "minecraft:item/iron_shovel",
-		"1": "minecraft:item/shovel_glint"
+		"1": "minecraft:item/shovel_glint",
+		"particle": "minecraft:item/iron_shovel"
+
 	},
 	"elements": [
 		{

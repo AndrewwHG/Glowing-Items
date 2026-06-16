@@ -3,7 +3,8 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "minecraft:item/diamond_sword",
-		"1": "minecraft:item/sword_glint"
+		"1": "minecraft:item/sword_glint",
+		"particle": "minecraft:item/diamond_sword"
 	},
 	"elements": [
 		{

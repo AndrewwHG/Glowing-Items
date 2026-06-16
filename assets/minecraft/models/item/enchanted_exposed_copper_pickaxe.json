@@ -2,9 +2,8 @@
 	"parent": "minecraft:item/handheld",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "minecraft:item/diamond_pickaxe",
-		"1": "minecraft:item/pickaxe_glint",
-		"particle": "minecraft:item/diamond_pickaxe"
+		"0": "minecraft:item/exposed_copper_pickaxe",
+		"1": "minecraft:item/pickaxe_glint"
 	},
 	"elements": [
 		{

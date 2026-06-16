@@ -3,7 +3,8 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "minecraft:item/netherite_pickaxe",
-		"1": "minecraft:item/pickaxe_glint"
+		"1": "minecraft:item/pickaxe_glint",
+		"particle": "minecraft:item/netherite_pickaxe"
 	},
 	"elements": [
 		{

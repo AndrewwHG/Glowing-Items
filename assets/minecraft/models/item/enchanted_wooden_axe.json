@@ -3,7 +3,8 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "minecraft:item/wooden_axe",
-		"2": "minecraft:item/axe_glint"
+		"2": "minecraft:item/axe_glint",
+		"particle": "minecraft:item/wooden_axe"
 	},
 	"elements": [
 		{

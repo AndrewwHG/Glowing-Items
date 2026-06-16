@@ -2,9 +2,8 @@
 	"parent": "minecraft:item/handheld",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "minecraft:item/netherite_sword",
-		"1": "minecraft:item/sword_glint",
-		"particle": "minecraft:item/netherite_sword"
+		"0": "minecraft:item/oxidized_copper_sword",
+		"1": "minecraft:item/sword_glint"
 	},
 	"elements": [
 		{
